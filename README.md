@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="screen/superGym_login.png" width="350" alt="SuperGym">
+    <img src="screen/superGym_login.png" width="600" alt="SuperGym">
   </a>
 </p>
 <p align="center">
