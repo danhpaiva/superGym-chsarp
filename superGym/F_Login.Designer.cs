@@ -33,8 +33,8 @@ namespace superGym
             this.tb_login = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_cancelLogin = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pb_login = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_login)).BeginInit();
             this.SuspendLayout();
             // 
             // tb_password
@@ -88,16 +88,16 @@ namespace superGym
             this.btn_cancelLogin.Text = "CANCELAR";
             this.btn_cancelLogin.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // pb_login
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::superGym.Properties.Resources.pexels_anush_gorak_1229356;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(784, 462);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.pb_login.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pb_login.Image = global::superGym.Properties.Resources.pexels_anush_gorak_1229356;
+            this.pb_login.Location = new System.Drawing.Point(0, 0);
+            this.pb_login.Name = "pb_login";
+            this.pb_login.Size = new System.Drawing.Size(784, 462);
+            this.pb_login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_login.TabIndex = 6;
+            this.pb_login.TabStop = false;
             // 
             // F_Login
             // 
@@ -108,14 +108,14 @@ namespace superGym
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.tb_login);
             this.Controls.Add(this.tb_password);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pb_login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "SuperGym - Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pb_login)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,6 +126,6 @@ namespace superGym
         private System.Windows.Forms.TextBox tb_login;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_cancelLogin;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pb_login;
     }
 }

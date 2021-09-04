@@ -17,7 +17,7 @@ namespace superGym
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new F_SuperGym());
+            Application.Run(new F_Principal());
         }
     }
 }

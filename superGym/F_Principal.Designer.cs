@@ -107,7 +107,7 @@ namespace superGym
             this.Controls.Add(this.panel1);
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Super Gym - v1.0";
+            this.Text = "SuperGym - Home - v1.0";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ledLoggedIn)).EndInit();
