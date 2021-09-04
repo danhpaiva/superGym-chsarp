@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace superGym
 {
-    public partial class Form1 : Form
+    public partial class F_SuperGym : Form
     {
-        public Form1()
+        public F_SuperGym()
         {
             InitializeComponent();
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
