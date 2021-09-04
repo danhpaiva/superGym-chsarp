@@ -12,11 +12,32 @@ namespace superGym
     {
         private static SQLiteConnection conn;
 
-        private static SQLiteConnection ConectarBanco()
+        private static SQLiteConnection ConnectDataBase()
         {
-            conn = new SQLiteConnection("Data Soucr = D:\\work\\superGym-chsarp\\superGym\\database\\database.db");
+            conn = new SQLiteConnection("Data Source=D:\\work\\superGym-chsarp\\superGym\\database\\database.db");
             conn.Open();
             return conn;
+        }
+
+        public static DataTable GetAllUsers()
+        {
+            DataTable dataTable = new DataTable();
+
+            try
+            {
+                using (var cmd = ConnectDataBase().CreateCommand())
+                {
+                    cmd.CommandText = "SELECT * FROM USER ";
+                    SQLiteDataAdapter dataAdapter = new SQLiteDataAdapter(cmd.CommandText, ConnectDataBase());
+
+                    dataAdapter.Fill(dataTable);
+                    return dataTable;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

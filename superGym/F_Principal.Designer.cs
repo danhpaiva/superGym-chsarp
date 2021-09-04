@@ -1,7 +1,7 @@
 ﻿
 namespace superGym
 {
-    partial class F_SuperGym
+    partial class F_Principal
     {
         /// <summary>
         ///  Required designer variable.
@@ -99,13 +99,13 @@ namespace superGym
             this.pb_ledLoggedIn.TabIndex = 0;
             this.pb_ledLoggedIn.TabStop = false;
             // 
-            // F_SuperGym
+            // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.panel1);
-            this.Name = "F_SuperGym";
+            this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Super Gym - v1.0";
             this.panel1.ResumeLayout(false);
