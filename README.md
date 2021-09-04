@@ -1,3 +1,5 @@
+<h1>SuperGym</h1>
+
 <p align="center">
   <a href="#">
     <img src="screen/superGym_login.png" width="600" alt="SuperGym">
