@@ -29,6 +29,7 @@ namespace superGym
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Login));
             this.tb_password = new System.Windows.Forms.TextBox();
             this.tb_login = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
@@ -110,6 +111,7 @@ namespace superGym
             this.Controls.Add(this.tb_password);
             this.Controls.Add(this.pb_login);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "F_Login";

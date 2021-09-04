@@ -29,6 +29,7 @@ namespace superGym
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbl_nameUser = new System.Windows.Forms.Label();
             this.lbl_user = new System.Windows.Forms.Label();
@@ -105,6 +106,7 @@ namespace superGym
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SuperGym - Home - v1.0";
