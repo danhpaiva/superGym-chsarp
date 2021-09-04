@@ -38,6 +38,7 @@ The following tools were used in the construction of the project:
 - SGBD: <a href="https://go.microsoft.com/fwlink/?linkid=2163435">SQLite Studio</a>
 - Styles: <a href="https://www.iconfinder.com/">IconFinder</a> | <a href="https://www.pexels.com/pt-br/">Pexels</a>
 - Requirement SDK: <a href="https://dotnet.microsoft.com/download/dotnet/5.0">.Net 5</a>
+- Lib: system.data.sqlite
 
 <h2 id=author>:grin: Author</h2>
 Developed by <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
